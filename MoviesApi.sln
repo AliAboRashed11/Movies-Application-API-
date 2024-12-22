@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesApi", "MoviesApi\MoviesApi.csproj", "{DE99A73B-7B80-479F-917A-DAA2F41122DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moives.BLL", "Moives.BLL\Moives.BLL.csproj", "{C53A3CF3-65B5-4473-B79E-45C09B4BF474}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.DAL", "Movies.DAL\Movies.DAL.csproj", "{B8369E93-199D-48B4-978D-C891F1C765FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE99A73B-7B80-479F-917A-DAA2F41122DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE99A73B-7B80-479F-917A-DAA2F41122DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE99A73B-7B80-479F-917A-DAA2F41122DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE99A73B-7B80-479F-917A-DAA2F41122DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C53A3CF3-65B5-4473-B79E-45C09B4BF474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53A3CF3-65B5-4473-B79E-45C09B4BF474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53A3CF3-65B5-4473-B79E-45C09B4BF474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53A3CF3-65B5-4473-B79E-45C09B4BF474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8369E93-199D-48B4-978D-C891F1C765FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8369E93-199D-48B4-978D-C891F1C765FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8369E93-199D-48B4-978D-C891F1C765FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8369E93-199D-48B4-978D-C891F1C765FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1B8DCF4-5263-4014-81FD-8A417C52592B}
+	EndGlobalSection
+EndGlobal
